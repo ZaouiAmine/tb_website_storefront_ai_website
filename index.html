@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Storefront AI</title>
+    <link rel="stylesheet" href="./assets/theme.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="./assets/shell.js"></script>
+    <script>
+      mountShell({
+        title: "Storefront AI",
+        subtitle: "Merchandising intelligence",
+        cards: [
+          { label: "Conversion Rate", value: "4.9%", note: "+0.8 this week" },
+          { label: "Reco CTR", value: "18.4%", note: "Top segment mobile" },
+          { label: "Cart Lift", value: "+12.1%", note: "A/B variant B" },
+          { label: "Low Stock Alerts", value: "27", note: "Priority high" }
+        ],
+        listTitle: "Merch Feed",
+        items: [
+          "Home decor bundle outperforms baseline by 14 percent",
+          "Search recommendation model drift detected",
+          "High margin accessories campaign starts at 14:00",
+          "EU footwear segment conversion dipped overnight"
+        ]
+      });
+    </script>
+  </body>
+</html>
